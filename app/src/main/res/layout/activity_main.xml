@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/previousshare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Previous share price"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/enterquantity1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quantity "
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/currentshare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current share price"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/newquantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Quantity"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/purple_200"
+            android:text="Calculate"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black"
+            android:text="Multiply"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
